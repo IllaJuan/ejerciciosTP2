@@ -1,8 +1,5 @@
 let texto = prompt("Ingrese un texto:");
-let nuevoTexto = [];
 
-for (let i = 0; i < texto.length; i++) {
-    nuevoTexto[i] = texto[i];
-}
+texto = texto.split("");
 
-document.write(nuevoTexto.join("-"));
+document.write(texto.join("-"));
